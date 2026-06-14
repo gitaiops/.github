@@ -2,13 +2,13 @@
 
 # 🧪 GitAIOps
 
-### 분리된 테스트 공간 · Isolated Sandbox
+### 프로토타입 & 컨셉 공개 · Prototypes & Concepts
 
 **한국어** | [English](https://github.com/gitaiops/.github/blob/main/profile/README.en.md)
 
-원본을 직접 건드리지 않고 자유롭게 실험하기 위해 fork해 온 **샌드박스(분리된 테스트 공간)**입니다.
+GitAIOps 관련 **프로토타입과 컨셉을 실험하고 공개**하는 공간입니다.
 
-> ⚠️ **공식 저장소가 아닙니다.** 정식 자료는 아래 원본을 참고하세요.
+> 🧪 **실험적입니다.** 프로토타입·컨셉 단계의 작업이며, 프로덕션용이 아닙니다.
 
 </div>
 
@@ -16,13 +16,13 @@
 
 ## ℹ️ 이 조직은
 
-[`sysnet4admin`](https://github.com/sysnet4admin)의 자료를 fork해 온 **개인 실험·학습용 sandbox**입니다. 원본은 마음대로 테스트할 수 없어, 여기로 옮겨 안전하게 굴려봅니다.
+[`sysnet4admin`](https://github.com/sysnet4admin)의 자료를 기반으로, **GitAIOps 관련 아이디어를 프로토타입·컨셉으로 만들어 공개**하는 공간입니다. 원본을 직접 건드리지 않고 자유롭게 실험하기 위해 fork해 와서 진행합니다.
 
-여기서 실험하는 것: **Kubernetes / GKE · GitOps · CI/CD · 관측성(observability) · Claude Code 기반 AIOps 워크플로.**
+다루는 것: **Kubernetes / GKE · GitOps · CI/CD · 관측성(observability) · Claude Code 기반 AIOps 워크플로.**
 
 ## 🙏 출처
 
-모든 코드는 아래 원본에서 fork했으며, 크레딧은 원작자에게 있습니다.
+기반 코드는 아래 원본에서 fork했으며, 크레딧은 원작자에게 있습니다.
 
 - 👤 **Hoon Jo** ([`sysnet4admin`](https://github.com/sysnet4admin)) — CNCF Ambassador · AI & Cloud Native Engineer
 - 📦 원본:
@@ -33,11 +33,11 @@
 
 | 저장소 | 내용 |
 | --- | --- |
-| [**notiflex-platform**](https://github.com/gitaiops/notiflex-platform) | 핵심 실습 프로젝트 fork (Go · GKE · GitOps · Claude Code) |
+| [**notiflex-platform**](https://github.com/gitaiops/notiflex-platform) | 프로토타입 기반 프로젝트 fork (Go · GKE · GitOps · Claude Code) |
 | [**_Book_GitAIOps**](https://github.com/gitaiops/_Book_GitAIOps) | 책 관련 자료 fork |
 
 ---
 
 <div align="center">
-<sub>🧪 GitAIOps — isolated sandbox · forked from <a href="https://github.com/sysnet4admin">sysnet4admin</a> · not an official repository</sub>
+<sub>🧪 GitAIOps — prototypes & concepts · based on <a href="https://github.com/sysnet4admin">sysnet4admin</a> · experimental, not production</sub>
 </div>
