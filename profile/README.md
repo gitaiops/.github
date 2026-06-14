@@ -69,12 +69,22 @@ git clone https://github.com/gitaiops/notiflex-platform.git
 **`KO`** 챕터(ch2~ch8.2) 흐름을 따라가며 Claude Code로 인프라 구성·배포를 실습합니다.
 **`EN`** Follow the chapter flow (ch2~ch8.2) and practice infra build/deploy with Claude Code.
 
-<!-- 챕터가 브랜치/태그/디렉터리로 나뉘면 아래 매핑을 채우세요 · fill in if chapters map to branches/tags/dirs
-| 챕터 · Chapter | 위치 · Location |
-| --- | --- |
-| ch2 | `...` |
-| ch8.2 | `...` |
--->
+> **`KO`** 챕터는 별도 브랜치/태그가 아니라 **`main` 브랜치에 누적**됩니다 — 각 챕터가 이전 결과 위에 쌓입니다. 진행 현황은 [`JOURNEY.md`](https://github.com/gitaiops/notiflex-platform/blob/main/JOURNEY.md)에 기록됩니다.
+> **`EN`** Chapters are **cumulative on `main`** (not separate branches/tags) — each builds on the previous. Progress is tracked in [`JOURNEY.md`](https://github.com/gitaiops/notiflex-platform/blob/main/JOURNEY.md).
+
+## 🧭 챕터 여정 · Chapter journey
+
+| 챕터 · Ch | 구성한 것 · What's built | 핵심 기술 · Key tech |
+| --- | --- | --- |
+| **ch2** | GKE 클러스터 + 첫 서비스 배포 · Cluster & first deploy | GKE (Spot, Gateway API), Go `api:v0.1.0` |
+| **ch3** | GitOps + CI/CD (커밋 → 자동 배포) · commit → auto-deploy | ArgoCD v3.4.3, GitHub Actions + WIF (keyless) |
+| **ch4** | 관측성 · Observability | Prometheus · Grafana · Loki + Fluent Bit · Alerting |
+| **ch5** | 트래픽 관리 + 무중단 배포 · Traffic & zero-downtime | Gateway API · HTTPRoute · Argo Rollouts (Blue/Green) |
+| **ch6** | 캐시 · 시크릿 · 점진 배포 · Cache/secret/progressive | Valkey · Secret Manager CSI (WI) · Canary (20/50/80%) |
+| **ch7** | 엔터프라이즈 규모 · Enterprise scale | 멀티 노드풀 · App of Apps · 멀티테넌시 · multi-nodepool/tenancy |
+| **ch8.1** | 메시징 · Messaging | Strimzi Kafka (KRaft) + notifications topic |
+| **ch8.2** | 분산 트레이싱 · Distributed tracing | Tempo + OpenTelemetry (OTLP) |
+| _ch8.3~ch9_ | CronJob 헬스체크 · 회고 · 온보딩 문서 _(예정 · upcoming)_ | CronJob · repo analysis · runbook |
 
 ---
 
